@@ -1,0 +1,67 @@
+
+git init: Initialize a new Git repository in the current directory.
+git clone <repository_url>: Clone an existing Git repository to your local machine
+git add <file>: Stage changes in <file> for the next commit.
+git add . or git add -A: Stage all changes in the working directory.
+git reset <file>: Unstage changes in <file>.
+git status: Show the status of your working directory.
+git commit -m "Commit message": Commit staged changes with a message.
+git commit -a -m "Commit message": Stage and commit all changes in tracked files in one step.
+git commit --amend: Amend the last commit with new changes or a new message.
+git log: Display the commit history.
+git log --oneline: Display a concise commit history.
+git log --graph: Show a graphical representation of the commit history.
+git show <commit>: Display information about a specific commit.
+git branch: List all branches in your repository.
+git branch <branch_name>: Create a new branch.
+git checkout <branch_name>: Switch to a different branch.
+git merge <branch_name>: Merge changes from one branch into the current branch.
+git checkout -b <branch_name>: Create and switch to a new branch in one command.
+git branch -d <branch_name>: Delete a branch (use -D for force deletion).
+git remote -v: List all remote repositories.
+git remote add <name> <url>: Add a new remote repository.
+git fetch <remote>: Fetch changes from a remote repository.
+git pull <remote> <branch>: Pull changes from a remote repository.
+git push <remote> <branch>: Push your changes to a remote repository.
+git pull: Fetch and merge changes from the remote repository.
+git fetch: Fetch changes from the remote repository.
+git reset <commit>: Unstage commits or move the branch pointer.
+git reset --hard <commit>: Reset the branch and working directory to a specific commit.
+git revert <commit>: Create a new commit that undoes the changes introduced by a specific commit.
+git tag <tag_name>: Create a new lightweight tag.
+git tag -a <tag_name> -m "Tag message": Create an annotated tag with a message.
+git config --global <key> <value>: Set global Git configuration options.
+git config --local <key> <value>: Set repository-specific Git configuration options.
+git help: Get help on Git commands.
+git <command> --help: Get help on a specific Git command.
+git branch: List all branches in your repository.
+git branch <branch_name>: Create a new branch.
+git checkout <branch_name>: Switch to a different branch.
+git merge <branch_name>: Merge changes from one branch into the current branch.
+git rebase <branch_name>: Rebase the current branch onto another branch.
+git cherry-pick <commit>: Apply a specific commit to the current branch.
+git log: Display the commit history.
+git log --oneline: Display a concise commit history.
+git log --graph: Show a graphical representation of the commit history.
+git blame <file>: Show who last modified each line of a file and when.
+git stash: Temporarily save changes that are not ready to be committed.
+git stash pop or git stash apply: Reapply stashed changes.
+git stash list: List all stashes.
+git tag: List all tags.
+git tag <tag_name>: Create a new tag for the current commit.
+git tag -a <tag_name> -m "Tag message": Create an annotated tag with a message.
+git remote -v: List all remote repositories.
+git remote add <name> <url>: Add a remote repository.
+git fetch <remote>: Fetch changes from a remote repository.
+git pull <remote> <branch>: Pull changes from a remote repository.
+git reset <commit>: Unstage commits or move the branch pointer.
+git reset --hard <commit>: Reset the branch and working directory to a specific commit.
+git revert <commit>: Create a new commit that undoes the changes introduced by a specific commit.
+git cherry-pick <commit>: Apply a specific commit from one branch to another.
+git submodule add <repository_url> <path>: Add a submodule to your project.
+git submodule update --init: Initialize and update submodules.
+git submodule foreach <command>: Run a command in each submodule.
+Git hooks are scripts that you can place in the .git/hooks directory to trigger custom actions at specific points in the Git workflow.
+git config --global <key> <value>: Set global Git configuration options.
+git config --local <key> <value>: Set repository-specific Git configuration options.
+
